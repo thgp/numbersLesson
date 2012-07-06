@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F27EA54D15A7831300E843EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27EA54C15A7831300E843EC /* UIKit.framework */; };
+		F27EA54F15A7831300E843EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27EA54E15A7831300E843EC /* Foundation.framework */; };
+		F27EA55115A7831300E843EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27EA55015A7831300E843EC /* CoreGraphics.framework */; };
+		F27EA55715A7831300E843EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F27EA55515A7831300E843EC /* InfoPlist.strings */; };
+		F27EA55915A7831300E843EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F27EA55815A7831300E843EC /* main.m */; };
+		F27EA55D15A7831300E843EC /* thgpNumbersLessonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F27EA55C15A7831300E843EC /* thgpNumbersLessonAppDelegate.m */; };
+		F27EA56015A7831300E843EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27EA55E15A7831300E843EC /* MainStoryboard.storyboard */; };
+		F27EA56315A7831400E843EC /* thgpNumbersLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27EA56215A7831400E843EC /* thgpNumbersLessonViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F27EA54815A7831300E843EC /* thgpNumbersLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thgpNumbersLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27EA54C15A7831300E843EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F27EA54E15A7831300E843EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F27EA55015A7831300E843EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F27EA55415A7831300E843EC /* thgpNumbersLesson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "thgpNumbersLesson-Info.plist"; sourceTree = "<group>"; };
+		F27EA55615A7831300E843EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F27EA55815A7831300E843EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F27EA55A15A7831300E843EC /* thgpNumbersLesson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thgpNumbersLesson-Prefix.pch"; sourceTree = "<group>"; };
+		F27EA55B15A7831300E843EC /* thgpNumbersLessonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thgpNumbersLessonAppDelegate.h; sourceTree = "<group>"; };
+		F27EA55C15A7831300E843EC /* thgpNumbersLessonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thgpNumbersLessonAppDelegate.m; sourceTree = "<group>"; };
+		F27EA55F15A7831300E843EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F27EA56115A7831300E843EC /* thgpNumbersLessonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thgpNumbersLessonViewController.h; sourceTree = "<group>"; };
+		F27EA56215A7831400E843EC /* thgpNumbersLessonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thgpNumbersLessonViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F27EA54515A7831300E843EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27EA54D15A7831300E843EC /* UIKit.framework in Frameworks */,
+				F27EA54F15A7831300E843EC /* Foundation.framework in Frameworks */,
+				F27EA55115A7831300E843EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F27EA53D15A7831300E843EC = {
+			isa = PBXGroup;
+			children = (
+				F27EA55215A7831300E843EC /* thgpNumbersLesson */,
+				F27EA54B15A7831300E843EC /* Frameworks */,
+				F27EA54915A7831300E843EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F27EA54915A7831300E843EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27EA54815A7831300E843EC /* thgpNumbersLesson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F27EA54B15A7831300E843EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27EA54C15A7831300E843EC /* UIKit.framework */,
+				F27EA54E15A7831300E843EC /* Foundation.framework */,
+				F27EA55015A7831300E843EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27EA55215A7831300E843EC /* thgpNumbersLesson */ = {
+			isa = PBXGroup;
+			children = (
+				F27EA55B15A7831300E843EC /* thgpNumbersLessonAppDelegate.h */,
+				F27EA55C15A7831300E843EC /* thgpNumbersLessonAppDelegate.m */,
+				F27EA55E15A7831300E843EC /* MainStoryboard.storyboard */,
+				F27EA56115A7831300E843EC /* thgpNumbersLessonViewController.h */,
+				F27EA56215A7831400E843EC /* thgpNumbersLessonViewController.m */,
+				F27EA55315A7831300E843EC /* Supporting Files */,
+			);
+			path = thgpNumbersLesson;
+			sourceTree = "<group>";
+		};
+		F27EA55315A7831300E843EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F27EA55415A7831300E843EC /* thgpNumbersLesson-Info.plist */,
+				F27EA55515A7831300E843EC /* InfoPlist.strings */,
+				F27EA55815A7831300E843EC /* main.m */,
+				F27EA55A15A7831300E843EC /* thgpNumbersLesson-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F27EA54715A7831300E843EC /* thgpNumbersLesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27EA56615A7831400E843EC /* Build configuration list for PBXNativeTarget "thgpNumbersLesson" */;
+			buildPhases = (
+				F27EA54415A7831300E843EC /* Sources */,
+				F27EA54515A7831300E843EC /* Frameworks */,
+				F27EA54615A7831300E843EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thgpNumbersLesson;
+			productName = thgpNumbersLesson;
+			productReference = F27EA54815A7831300E843EC /* thgpNumbersLesson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F27EA53F15A7831300E843EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = thgpNumbersLesson;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F27EA54215A7831300E843EC /* Build configuration list for PBXProject "thgpNumbersLesson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F27EA53D15A7831300E843EC;
+			productRefGroup = F27EA54915A7831300E843EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27EA54715A7831300E843EC /* thgpNumbersLesson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F27EA54615A7831300E843EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27EA55715A7831300E843EC /* InfoPlist.strings in Resources */,
+				F27EA56015A7831300E843EC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F27EA54415A7831300E843EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27EA55915A7831300E843EC /* main.m in Sources */,
+				F27EA55D15A7831300E843EC /* thgpNumbersLessonAppDelegate.m in Sources */,
+				F27EA56315A7831400E843EC /* thgpNumbersLessonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F27EA55515A7831300E843EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27EA55615A7831300E843EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F27EA55E15A7831300E843EC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27EA55F15A7831300E843EC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F27EA56415A7831400E843EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F27EA56515A7831400E843EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F27EA56715A7831400E843EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thgpNumbersLesson/thgpNumbersLesson-Prefix.pch";
+				INFOPLIST_FILE = "thgpNumbersLesson/thgpNumbersLesson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F27EA56815A7831400E843EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thgpNumbersLesson/thgpNumbersLesson-Prefix.pch";
+				INFOPLIST_FILE = "thgpNumbersLesson/thgpNumbersLesson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F27EA54215A7831300E843EC /* Build configuration list for PBXProject "thgpNumbersLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27EA56415A7831400E843EC /* Debug */,
+				F27EA56515A7831400E843EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27EA56615A7831400E843EC /* Build configuration list for PBXNativeTarget "thgpNumbersLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27EA56715A7831400E843EC /* Debug */,
+				F27EA56815A7831400E843EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F27EA53F15A7831300E843EC /* Project object */;
+}
